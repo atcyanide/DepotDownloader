@@ -536,7 +536,7 @@ namespace DepotDownloader
             uint uVersion = GetSteam3AppBuildNumber( appId, branch );
 
             string installDir;
-            if ( !CreateDirectories( appId, appName, depotId, uVersion, contentName, out installDir ) )
+            if ( !CreateDirectories( appId, "app_dl", depotId, uVersion, contentName, out installDir ) )
             {
                 Console.WriteLine( "Error: Unable to create install directories!" );
                 return null;
