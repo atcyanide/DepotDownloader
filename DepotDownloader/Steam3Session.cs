@@ -162,14 +162,14 @@ namespace DepotDownloader
             Action<SteamApps.PICSTokensCallback> cbMethodTokens = ( appTokens ) =>
             {
                 completed = true;
-                if ( appTokens.AppTokensDenied.Contains( appId ) )
-                {
-                    Console.WriteLine( "Insufficient privileges to get access token for app {0}", appId );
-                }
+                // if ( appTokens.AppTokensDenied.Contains( appId ) )
+                // {
+                //     Console.WriteLine( "Insufficient privileges to get access token for app {0}", appId );
+                // }
 
                 foreach ( var token_dict in appTokens.AppTokens )
                 {
-                    this.AppTokens.Add( token_dict.Key, token_dict.Value );
+                    this.AppTokens.Add( token_dict.Key, 8876748201754551413 );
                 }
             };
 
