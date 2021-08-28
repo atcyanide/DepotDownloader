@@ -33,7 +33,6 @@ TestResults
 *.log
 *.vspscc
 *.vssscc
-.builds
 
 # Visual C++ cache files
 ipch/
@@ -71,10 +70,8 @@ DocProject/Help/Html2
 DocProject/Help/html
 
 # Click-Once directory
-publish
 
 # Publish Web Output
-*.Publish.xml
 
 # NuGet Packages Directory
 packages
@@ -85,10 +82,8 @@ csx
 *.build.csdef
 
 # Windows Store app package directory
-AppPackages/
 
 # Others
-[Bb]in
 [Oo]bj
 sql
 TestResults
